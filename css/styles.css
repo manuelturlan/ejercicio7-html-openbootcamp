@@ -1,0 +1,40 @@
+html {
+    background-color: rgb(51, 56, 57);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: rgb(134, 129, 129);
+    width: 50px;
+    height: 150px;
+}
+
+div button::before {
+    content: "Pasa por encima";
+    font-size: large;
+  }
+
+  div button:hover {
+    color: #fff;
+    background-color: rgb(26, 101, 26);
+  }
+
+  div button {
+    visibility: hidden;
+  }
+
+    div button:after {
+    content:'Hecho'; 
+    display: flex;
+    height: 50px;
+    border-radius: 3px;
+    width: 100px;
+    font: large;
+    visibility: visible;
+    background-color: rgb(62, 79, 208);
+  } 
